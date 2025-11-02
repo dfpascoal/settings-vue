@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #3f51b5;
+  --primary-color-text: #ffffff;
+  --surface-ground: #f8f9fa;
+  --surface-card: #ffffff;
+  --surface-border: #dee2e6;
+  --text-color: #495057;
+  --text-color-secondary: #6c757d;
+  --border-radius: 6px;
+  --font-family: 'Rubik', sans-serif;
+}
+
+body {
+  background-color: var(--surface-ground);
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+
+.p-button {
+  background-color: var(--primary-color);
+  color: var(--primary-color-text);
+  border: none;
+}
+
+.p-card {
+  background-color: var(--surface-card);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+}
